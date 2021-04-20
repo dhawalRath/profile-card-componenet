@@ -1,0 +1,145 @@
+/* 
+code by - Dhawal (@dhawalRath)
+Date - 20th April 2021 
+*/
+
+/* CSS Resets */
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* colors */
+:root{
+  --grey: hsl(0, 0%, 59%);
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --dark-grayish-blue: hsl(227, 10%, 46%);
+  --white: hsl(0, 0%, 100%);
+}
+
+
+/* Layout */
+body{
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--dark-cyan);
+  background-image: 
+  url('./images/bg-pattern-top.svg'), 
+  url('./images/bg-pattern-bottom.svg');
+  background-position: 
+  -50vw -120vh, 
+  40vw 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  display: grid;
+  place-items: center;
+}   
+
+.container{
+  max-width: 1440px;
+  width: 100%;
+  max-height: 720px;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.card{
+  width: 350px;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+/* section-1 */
+.card .bg-pattern{
+  height: 140px;
+  background-image: url('./images/bg-pattern-card.svg');
+}
+
+/* profile-pick */
+.card .bg-pattern img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: var(--white);
+  position: relative;
+  top: 90px;
+  left: 125px;
+}
+
+/* section-2 */
+.card .person-stats{
+  background-color: var(--white);
+  color: var(--very-dark-desaturated-blue);
+  height: 145px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.age, .city{
+  color: var(--dark-grayish-blue);
+  font-weight: 400;
+}
+
+.city{
+  font-size: 0.9rem;
+  padding: 12px 0 22px 0;
+}
+
+/* section-3 */
+.card .social-stats{
+  height: 90px;
+  background-color: var(--white);
+  border-top: hsl(0, 0%, 90%) solid 1px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.followers, .likes, .photos{
+  display: flex;
+  flex-direction: column;
+  color: var(--very-dark-desaturated-blue);
+  align-items: center;
+  
+}
+
+.grey{
+  font-weight: 400;
+  color: var(--dark-grayish-blue);
+  font-size: 0.555rem;
+  letter-spacing: 2.5px;
+  padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.attribution { 
+  font-size: 11px; text-align: center; position: fixed; bottom: 0px;
+}
+    
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+  text-decoration: none;
+}
