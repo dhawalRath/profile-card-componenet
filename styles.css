@@ -136,7 +136,12 @@ body{
 
 /* footer */
 .attribution { 
-  font-size: 11px; text-align: center; position: fixed; bottom: 0px;
+  display: block;
+  width: 100%;
+  font-size: 11px; 
+  text-align: center; 
+  position: fixed; 
+  bottom: 0px;
 }
     
 .attribution a { 
