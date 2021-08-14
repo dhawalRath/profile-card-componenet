@@ -1,49 +1,19 @@
-# Frontend Mentor - Profile card component solution
+# :star2: Frontend Mentor - Profile card component solution :star2:
 
 This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Table of contents
+### :point_right: [Live Site](https://dhawalrath.github.io/profile-card-componenet/)
 
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-- [Author](#author)
+## :camera: Overview
 
+![Desktop](./screenshots/desktop.png)
 
-## Overview
+## :muscle: Built With
 
-### The challenge
+- HTML5 Semantics
+- CSS3 (with Grid and Flexbox)
 
-- Build out the project to the designs provided
-
-### Screenshot
-
-![](./screenshots/desktop.png)
-![](./screenshots/mobile.png)
-
-
-### Links
-
-- Live Site URL: [view here](https://dhawalrath.github.io/profile-card-componenet/)
-- Solution URL: [check here](https://www.frontendmentor.io/solutions/profile-card-using-html-and-css-grid-and-flexbox-65kBp6zSW)
-
-## My process
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-
-### What I learned
-
-Working with SVG images in background is difficult but I learned a lot through this challenge.
-
-## Author
+## :man: Author
 
 - Frontend Mentor - [@dhawalRath](https://www.frontendmentor.io/profile/dhawalRath)
 - Twitter - [@dhawalRath](https://www.twitter.com/dhawalRath)
